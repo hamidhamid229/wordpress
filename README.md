@@ -30,6 +30,7 @@ git clone <https://github.com/hamidhamid229/wordpress.git>
 
 
 Apply Manifests:Apply the Kubernetes manifests in the following order to ensure dependencies are met:
+
 kubectl apply -f db-secret.yaml
 kubectl apply -f mysql-pvc.yaml
 kubectl apply -f mysql-deployment.yaml
